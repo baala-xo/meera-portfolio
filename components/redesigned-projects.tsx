@@ -303,7 +303,7 @@ export default function RedesignedProjects() {
                   <div className="absolute inset-0 flex flex-col md:flex-row">
                     <div className="relative w-full h-48 md:h-auto md:w-1/2">
                       <Image
-                        src={ "/placeholder-image.png"}
+                        src={ "/Behance.png"}
                         alt={"behance"}
                         fill
                         className="object-cover"
