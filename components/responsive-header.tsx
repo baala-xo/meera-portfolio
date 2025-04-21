@@ -28,8 +28,7 @@ export default function ResponsiveHeader() {
 
   const navItems = [
     { name: "Home", href: "#" },
-    { name: "Skills", href: "#skills" },
-    { name: "Experience", href: "#experience" },
+    { name: "Skills", href: "#skills" }, 
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ]
@@ -76,10 +75,10 @@ export default function ResponsiveHeader() {
         >
           <div className="flex items-center gap-2">
             <div className="font-bold text-xl bg-gradient-to-r from-happy-hearts to-golden-nugget text-transparent bg-clip-text">
-              S
+              Sri
             </div>
             <div className="hidden md:block">
-              <div className="font-bold">Meera Arthi Sri</div>
+              <div className="font-bold">Meera Arthi</div>
               <div className="text-xs text-muted-foreground">UI/UX Designer</div>
             </div>
           </div>
@@ -88,13 +87,7 @@ export default function ResponsiveHeader() {
         
 
         <div className="flex items-center gap-2 sm:gap-4">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.3, delay: 0.7 }}
-          >
-            <ThemeSwitcher />
-          </motion.div>
+          
 
           <div className="md:hidden">
             <Button

@@ -304,7 +304,7 @@ export default function RedesignedProjects() {
                     <div className="relative w-full h-48 md:h-auto md:w-1/2">
                       <Image
                         src={ "/Behance.png"}
-                        alt={featuredProjects[currentFeaturedIndex].title}
+                        alt={"Behance"}
                         fill
                         className="object-cover"
                         priority

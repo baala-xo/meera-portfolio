@@ -32,8 +32,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background pt-16">
       <ScrollProgress />
-      <FloatingNav />
-      <FloatingThemeSwitcher />
+      
 
       <ErrorBoundary fallback={<SectionFallback title="Hero" />}>
         <Suspense fallback={<LoadingSection name="Hero" />}>

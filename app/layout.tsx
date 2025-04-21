@@ -13,10 +13,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Shaquille Williams | AI Engineer & Community Builder",
+  title: "Meera Arthi Sri | UI/UX Designer",
   description:
-    "Portfolio of Shaquille Williams, AI Engineer and Community Builder specializing in machine learning, generative AI, and STEM education",
-    generator: 'v0.dev'
+    "Portfolio of Meera Arthi Sri, UI UX Designeer",
+    generator: '@bala.abq'
 }
 
 export default function RootLayout({
