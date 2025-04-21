@@ -54,7 +54,7 @@ export default function RedesignedHero() {
   // Typing effect for the subtitle
   const [displayedText, setDisplayedText] = useState("")
   const fullText =
-    "Passionate UI/UX Designer with strong skills in Figma, web development, and user-centered design. Currently pursuing M.Sc. IT, blending creativity with technical expertise to craft impactful digital experiences."
+    "  A Passionate UI/UX Designer with strong skills in Figma, web development, and user-centered design. Currently pursuing M.Sc. IT, blending creativity with technical expertise to craft impactful digital experiences."
 
   useEffect(() => {
     if (!isClient) return

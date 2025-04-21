@@ -75,7 +75,7 @@ export default function ResponsiveHeader() {
         >
           <div className="flex items-center gap-2">
             <div className="font-bold text-xl bg-gradient-to-r from-happy-hearts to-golden-nugget text-transparent bg-clip-text">
-              Sri
+              SMAS
             </div>
             <div className="hidden md:block">
               <div className="font-bold">Meera Arthi</div>
