@@ -5,7 +5,6 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 import ResponsiveHeader from "@/components/responsive-header"
-import ClientDiagnosticWrapper from "@/components/client-diagnostic-wrapper"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -44,7 +43,6 @@ export default function RootLayout({
           <ResponsiveHeader />
           {children}
           <Toaster />
-          <ClientDiagnosticWrapper />
         </ThemeProvider>
       </body>
     </html>
